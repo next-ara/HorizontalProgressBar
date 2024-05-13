@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 圆角线性布局 -->
+    <declare-styleable name="HorizontalProgressBar">
+        <!-- 是否是模糊进度条 -->
+        <attr name="indeterminate" format="boolean" />
+        <!-- 进度条圆角半径 -->
+        <attr name="radius" format="dimension" />
+        <!-- 进度条背景颜色 -->
+        <attr name="backgroundColor" format="color" />
+        <!-- 进度条颜色 -->
+        <attr name="progressColor" format="color" />"
+        <!-- 模糊进度条速率 -->
+        <attr name="indeterminateRate" format="integer" />
+        <!-- 精确进度条进度 -->
+        <attr name="progress" format="integer" />
+        <!-- 模糊进度条宽度 -->
+        <attr name="indeterminateWidth" format="dimension" />
+    </declare-styleable>
+</resources>
